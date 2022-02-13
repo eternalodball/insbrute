@@ -2,6 +2,7 @@
 
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.firefox.options import Options
 import time, random
 
 # color
@@ -25,9 +26,13 @@ my_username = input(color.GREEN + '[~] ' + color.CWHITE + 'Enter Your Username: 
 # Code to select Password from pass.txt
 f = open("pass.txt", "r")
 
+#headless browser
+options = Options()
+options.headless = False
+
 # webdriver
 FIREFOX_DVR_DIR = "$PATH"
-browser = webdriver.Firefox(executable_path =FIREFOX_DVR_DIR)
+browser = webdriver.Firefox(options=options, executable_path =FIREFOX_DVR_DIR)
 
 # untick for using in chrome
 #CHROME_DVR_DIR = "$PATH"
