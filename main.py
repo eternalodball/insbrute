@@ -5,7 +5,6 @@ from selenium.webdriver.common.keys import Keys
 import time, random
 
 # color
-
 class color:
    PURPLE = '\033[95m'
    CYAN = '\033[96m'
@@ -26,9 +25,13 @@ my_username = input(color.GREEN + '[~] ' + color.CWHITE + 'Enter Your Username: 
 # Code to select Password from pass.txt
 f = open("pass.txt", "r")
 
-#webdriver
-FIREFOX_DVR_DIR = "/home/aao/Desktop/geckodriver"
+# webdriver
+FIREFOX_DVR_DIR = "$PATH"
 browser = webdriver.Firefox(executable_path =FIREFOX_DVR_DIR)
+
+# untick for using in chrome
+#CHROME_DVR_DIR = "$PATH"
+#browser = webdriver.Chrome(CHROME_DVR_DIR)
 
 # Authorization:
 def auth(username):
