@@ -37,7 +37,7 @@ browser = webdriver.Firefox(executable_path =FIREFOX_DVR_DIR)
 def auth(username):
 	try:
 
-# use loop (completing code on line 27)
+# use loop (completing code on line 25)
 	    for password in f:
 		    browser.get('https://www.instagram.com/accounts/login/?force_classic_login')
 		    time.sleep(1)
