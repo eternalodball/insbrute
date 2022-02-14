@@ -36,8 +36,8 @@ options.headless = False
 
 # chromedriver
 # Untick for selecting manually
-#CHROME_DVR_DIR = "$PATH"
-#browser = webdriver.Chrome(CHROME_DVR_DIR)
+# CHROME_DVR_DIR = "$PATH"
+# browser = webdriver.Chrome(CHROME_DVR_DIR)
 browser = webdriver.Chrome()
 
 # Authorization:
