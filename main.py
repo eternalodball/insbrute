@@ -30,13 +30,15 @@ f = open("pass.txt", "r")
 options = Options()
 options.headless = False
 
-# webdriver
-FIREFOX_DVR_DIR = "$PATH"
-browser = webdriver.Firefox(options=options, executable_path =FIREFOX_DVR_DIR)
+# geckodriver
+# FIREFOX_DVR_DIR = "$PATH"
+# browser = webdriver.Firefox(options=options, executable_path =FIREFOX_DVR_DIR)
 
-# untick for using in chrome
+# chromedriver
+# Untick for selecting manually
 #CHROME_DVR_DIR = "$PATH"
 #browser = webdriver.Chrome(CHROME_DVR_DIR)
+browser = webdriver.Chrome()
 
 # Authorization:
 def auth(username):
