@@ -4,7 +4,6 @@ script to create one for your own site , i have mentioned all functions in it an
 
 
 # Usage :-
-## on line 29 edit and add your geckodriver file path
 ```
 git clone https://github.com/eternalodball/instagram-bruteforce-selenium
 
