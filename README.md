@@ -10,3 +10,7 @@ git clone https://github.com/eternalodball/instagram-bruteforce-selenium
 cd instagram-bruteforce-selenium
 
 python3 main.py
+```
+# Test :-
+
+>### edit pass.txt and change real_password with your original password
