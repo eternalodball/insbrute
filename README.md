@@ -1,6 +1,5 @@
-# What's this :-
-This is the simplest python script for bruteforcing web logins using selenium , you can use this
-script to create one for your own site , i have mentioned all functions in it and it's easy to read..
+# instagram-bruteforce-selenium
+Simple python script for bruteforcing web logins using selenium
 
 
 # Usage :-
