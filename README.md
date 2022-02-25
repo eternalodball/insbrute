@@ -16,4 +16,4 @@ python3 main.py
 
 >### edit pass.txt and change real_password with your original password
 
-# Probably update this tool after exams
+# Probably update it after my exams
