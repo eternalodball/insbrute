@@ -15,3 +15,5 @@ python3 main.py
 # Test it !
 
 >### edit pass.txt and change real_password with your original password
+
+# Probably update this tool after exams
