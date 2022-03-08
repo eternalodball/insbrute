@@ -2,7 +2,7 @@
 
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.firefox.options import Options
+from selenium.webdriver.chrome.options import Options
 import time, random
 
 # color
@@ -27,17 +27,12 @@ my_username = input(color.GREEN + '[~] ' + color.CWHITE + 'Enter Your Username: 
 f = open("pass.txt", "r")
 
 #headless browser
+
 options = Options()
 options.headless = False
 
-# geckodriver
-# FIREFOX_DVR_DIR = "$PATH"
-# browser = webdriver.Firefox(options=options, executable_path =FIREFOX_DVR_DIR)
+options.add_experimental_option("detach", True)
 
-# chromedriver
-# Untick for selecting manually
-# CHROME_DVR_DIR = "$PATH"
-# browser = webdriver.Chrome(CHROME_DVR_DIR)
 browser = webdriver.Chrome()
 
 # Authorization:
