@@ -1,15 +1,21 @@
-# instagram-bruteforce-selenium
-Simple python script for bruteforcing web logins using selenium
+# Tnsbrute
+Simple python script to bruteforce instagram using selenium webdriver
 
+## Clone and change directory
 
-# Usage :-
 ```
-git clone https://github.com/eternalodball/instagram-bruteforce-selenium
+git clone https://github.com/eternalodball/insbrute
 
-cd instagram-bruteforce-selenium
+cd insbrute
+```
 
+## Install requirements
+```
 sudo bash install.sh
+```
+## Run it !
 
+```
 python3 main.py
 ```
 # Test it !
